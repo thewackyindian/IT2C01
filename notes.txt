@@ -1,0 +1,41 @@
+ --> Notes : static keyword is used for efficient memory management --> stack area , heap area , method area
+ *         -- different memory areas can be used with variables , methods ,
+ *         blocks , classes belongs to a class not to an instance of a class
+ * 
+ *         a static variable: they get memory only once in the class area at the
+ *         time of class loading if many objects in a class have same value for
+ *         one common attribute , that attribute is made static -- for obvious
+ *         reasons
+ * 
+ *         a static method : belongs to the class more than the instance/object
+ *         of the class can access static data members / instance variables
+ *         cannot use non static data members this and super cannot be used with
+ *         static methods --> we dont require objects to call static methods as
+ *         they belong more to class tha to objects of class therefore main has
+ *         static keyword else we would have to create an object of a class to
+ *         call main instead. -->
+ * 
+ *         this keyword : a reference variable --> refers to the current object
+ *         --> trying to access the object can also refer to current instance
+ *         variable --> #1 can be used to invoke current class methods (not seen
+ *         properly) & constructors(seen) also passed as an arguement to a
+ *         method to return current class instance cannot be used to call static
+ *         methods ( they dont need object to be called and this always points
+ *         to cuurent object of the class)
+ * 
+ *         super keyword: --> final keyword : methods/functions declared with
+ *         final keyword cannot be overrided. similarly a class defined with
+ *         final cannot be extended -->
+ * 
+ *         Runtime Polymorphism: process in which a call to overridden method is
+ *         resolved at runtime rather than at compile time --->
+ * 
+ *         Upcasting : if the reference variable of a parent class refers to an
+ *         object in child class --->
+ * 
+ *         Abstraction : hidng internal details and showing functionality
+ *         implementation using abstract classes and interfaces --> abstract
+ *         classes needs to be extended and its methods implemented --> cannot
+ *         be instantiated ----> abstract methods have no mthod body
+ * 
+ */
